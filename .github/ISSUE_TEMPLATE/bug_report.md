@@ -40,3 +40,6 @@ If applicable, paste the full error message here
    - numpy: 
    - matplotlib: 
    - seaborn (if applicable): 
+
+**Additional context**
+Add any other context about the problem here.

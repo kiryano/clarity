@@ -1,0 +1,39 @@
+[
+build-system
+]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[
+project
+]
+name = "clarity-data"
+version = "0.1.0-beta"
+description = "A powerful, intuitive Python toolkit for streamlined data analysis workflows"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Scientific/Engineering :: Data Science",
+]
+dependencies = [
+    "pandas>=1.5.0",
+    "numpy>=1.23.0",
+    "scikit-learn>=1.0.0",
+    "matplotlib>=3.5.0",
+    "seaborn>=0.12.0",
+]
+
+[
+project.optional-dependencies
+]
+dev = [
+    "pytest>=7.0.0",
+    "black",
+    "isort",
+]
